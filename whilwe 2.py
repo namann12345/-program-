@@ -3,5 +3,5 @@ f=1
 i=1
 while i <=num:
 f=f+1
-i=ii+1
+i=i+1
 print("factorial of " ,num,"is",f)
