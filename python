@@ -29,5 +29,8 @@ fahrenheit = 1.8*celcius +32
 kelvin = 273.15*celcius
 
 
+
+
+
 print(fahrenheit)
 print(kelvin)
