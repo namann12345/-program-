@@ -1,7 +1,7 @@
- #b = "Harry's" --> #use this if you have single quotes in your strings 
-#b = 'Harry"s'
-b = '''Harry"s and
-       Harry's'''
+b = "naman's" --> #use this if you have single quotes in your strings 
+b = 'naman"s'
+b = '''naman"s and
+       naman's'''
 
 print(b)
 #print(type(b))
@@ -16,7 +16,7 @@ print(c)
 
 #concatenating two strings
 
-name = "Harry"
+name = "naman"
 print(name[4])
 # name[3] = "d" --> does not work
 
@@ -48,7 +48,7 @@ print(story.find("upon"))
 print(story.replace ("Harry", "codewithHary"))
 
 
-story = "Harry is good.\nHe\tis very good"
+story = "naman is good.\nHe\tis very good"
 print(story)
 
 
