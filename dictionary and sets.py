@@ -2,15 +2,15 @@ myDict = {
     "Fast": "In a Quick Manner",
     "Harry" : "A coder",
     "Marks" : [1,2,5],
-    "anotherdict":{'harry': 'player'}
+    "anotherdict":{'naman': 'player'}
 }
 
 str
 #print(myDict['Fast'])
-#print(myDict['Harry'])
+#print(myDict['naman'])
 myDict['Marks'] = [45,78]
 print(myDict['Marks'])    
-print(myDict['anotherdict']['harry'])
+print(myDict['anotherdict']['naman'])
 
 
 myDict = {
@@ -39,12 +39,12 @@ print(myDict)
 
 
 
-print(myDict.get("harry")) # prints value associated with key "harry"
-print(myDict["harry"])  # prints value associated with key "harry"
+print(myDict.get("naman")) # prints value associated with key "naman"
+print(myDict["naman"])  # prints value associated with key "naman"
 
 # the difference between .get and[] syntax in dictionaries 
-print(myDict.get("harry2")) # returns none as harry2 is not present in the dictionary
-print(myDict["harry2"])  # throws an error as harry2 is not present in the doctionary
+print(myDict.get("naman2")) # returns none as naman2 is not present in the dictionary
+print(myDict["naman2"])  # throws an error as naman2 is not present in the doctionary
 
 
 
