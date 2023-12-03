@@ -1,4 +1,5 @@
-i = 4
-while i<10:
-    print("yes" + str(i))
-    i = i + 1
+i = 0
+while i<5:
+    print("Naman")
+    i = i+1
+
